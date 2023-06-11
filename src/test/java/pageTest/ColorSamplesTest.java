@@ -7,7 +7,7 @@ import pageObjects.ColorSamples;
 public class ColorSamplesTest extends BaseTest {
     ColorSamples colorSamples = new ColorSamples();
     String testColor = "tuberose";
-    String expectedSwatchInnerText = "SW 6578\n\nTuberose\n\nOrder samples";
+    String expectedSwatchInnerText = "Tuberose\nSW 6578\nOrder samples";
 
     @Test
     public void close_Pop_Up_Modal() throws InterruptedException {
