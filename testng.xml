@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/grzegorz/Downloads/Stibo-Test/src/test/java/pageTest/BaseTest.java">
+        <classes/>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="/Users/grzegorz/Downloads/Stibo-Test/src/test/java/pageTest/NavigationTest.java">
+        <classes>
+            <class name="pageTest.NavigationTest">
+                <methods>
+                    <include name="testNavigation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="/Users/grzegorz/Downloads/Stibo-Test/src/test/java/pageTest/InteriorPaintTest.java">
+        <classes>
+            <class name="pageTest.InteriorPaintTest">
+                <methods>
+                    <include name="search_For_Tuberose_Paint_Color"/>
+                    <include name="navigate_To_Paint_Color_Page"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="/Users/grzegorz/Downloads/Stibo-Test/src/test/java/pageTest/ColorTest.java">
+        <classes>
+            <class name="pageTest.ColorTest">
+                <methods>
+                    <include name="check_The_URL"/>
+                    <include name="open_Tuberose_Paint_Color_In_New_Tab"/>
+                    <include name="verify_Product_Name"/>
+                    <include name="verify_Hex_Code"/>
+                    <include name="test_Icon_Navigation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="/Users/grzegorz/Downloads/Stibo-Test/src/test/java/pageTest/ColorSamplesTest.java">
+        <classes>
+            <class name="pageTest.ColorSamplesTest">
+                <methods>
+                    <include name="close_Pop_Up_Modal"/>
+                    <include name="verify_Swatch_Details"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+</suite>
